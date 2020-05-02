@@ -36,4 +36,4 @@ The last chart shows the inventory evolution.
 
 Figure 2 shows the distribution of PnL over 1000 simulations.
 
-![Pnl Histogram](img/distribution.png "PnL Histogram")
+![Pnl Histogram](img/pnl_distribution.png "PnL Histogram")
