@@ -101,7 +101,7 @@ for i_sim in range(n_sim):
             r[n] = s[n] - q[n] * gamma * sigma**2*(T-dt*n)
 
             # Reserve spread
-            r_spread = 2 / gamma * math.log(1+gamma/k)    
+            r_spread = 2 / gamma * math.log(1+gamma/k) + gamma * sigma**2*(T-dt*n)
 
             # optimal quotes
             ra[n] = r[n] + r_spread/2
